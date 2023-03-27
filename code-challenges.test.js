@@ -39,12 +39,34 @@ const object3 = { number: -7 }
 // a) Create a test with expect statements for each of the variables provided.
 
 const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+describe("randomNouns1", ()=> {
+ it ("All words to be capitlized."),()=>{
+   expect(capitalizedWord("streetlamp")).toBe("Streetlamp")
+   expect(capitalizedWord("potato")).toBe("Potato")
+   expect(capitalizedWord("teeth")).toBe("Teeth")
+   expect(capitalizedWord("conclusion")).toBe("Conclusion")
+ }
+ })
+
+
+
+
 // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
 const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
 // Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
+const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
+describe("randomNouns2", ()=> {
+ it ("All words to be capitlized."),()=>{
+   expect(capitalizedWord("temperature")).toBe("Temperature")
+   expect(capitalizedWord("databse")).toBe("Databse")
+   expect(capitalizedWord("chopsticks")).toBe("Chopsticks")
+   expect(capitalizedWord("mango")).toBe("Mango")
+ }
+ })
 
 // b) Create the function that makes the test pass.
-
+console.log(randomNouns2.toUppercase)
+console.log(randomNouns1.toUppercase)
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
 
 // a) Create a test with expect statements for each of the variables provided.
