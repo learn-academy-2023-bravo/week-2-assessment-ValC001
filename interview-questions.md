@@ -55,4 +55,4 @@ Research and define the following terms to the best of your ability.
 
 4. React props: properties of an object.
 
-5. DOM events:
+5. DOM events: I couldn't find what this means
