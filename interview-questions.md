@@ -15,9 +15,9 @@ Researched answer:
 
 2. The JavaScript built in method .map() takes predefined parameters. What are they? Which are required and which are optional?
 
-Your answer:
+Your answer: The ones that are required are function() & currentValue. The ones that are optional are index, arr & thisValue.
 
-Researched answer:
+Researched answer: When I researched the the predefined parameters for .map() those 5 are the ones that came up.
 
 3. What is the difference between map and filter?
 
